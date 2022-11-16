@@ -18,7 +18,7 @@ print(request.text)
 # End: request information
 
 # Begin: convert Json to CSV
-with open('enrollment.json', 'w') as enrollment_json_file:
+with open('enrollment.json', 'w') as enrollment_json_filepres:
     json.dump(requesttool, enrollment_json_file)
 # End: convert JSon to CSV
 # Begin: saving the csv file   
