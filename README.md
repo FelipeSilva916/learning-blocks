@@ -1,4 +1,9 @@
 # school-grant-data
+## How to run the project
+Run frontend Django server in Docker. View in browser on 127.0.0.1:8000 
+```shell
+make local
+```
 
 ## Problem Statement
 
